@@ -7,7 +7,7 @@ use rand::rngs::ThreadRng;
 pub fn initialize(r: &mut [f64]) 
 {
     for i in 0..r.len() {
-        r[i] = 0.0;
+        r[i] = macrovar!(R0);
     }
 }
 
