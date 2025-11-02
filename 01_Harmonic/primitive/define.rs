@@ -3,7 +3,7 @@
 mod path;
 
 // 定数を宣言
-macro_rules! macro_var {
+macro_rules! macrovar {
     (TEMP) => {0.2};
     (M)    => {10};
 }
