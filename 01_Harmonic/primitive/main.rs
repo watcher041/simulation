@@ -15,6 +15,8 @@ fn main()
     /* 経路を初期化 */
     path::initialize(&mut r);
 
+    /* 乱数の初期化 */
+
     println!("r={:?}",beta);
     println!("r={:?}",tau);
     println!("r={:?}",r);
